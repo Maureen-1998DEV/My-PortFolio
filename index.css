@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.partone{
+    background-image: url("/Assetes/technology-798619_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 800px;
+    position: relative;
+    
+    
+}
+.partone .navbar .heading{
+  height: 800px;
+  background-color: rgba(0, 35, 82, 0.7);
+  z-index:999
+}
+
+
+
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: transparent;
+    
+}
+.navbar ul {
+    float: right;
+    margin-right: 30px;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 30px;
+    padding: 6px 13px;
+}
+
+.partone .navbar ul li a.active,
+.partone .navbar ul li a:hover{
+color: rgb(53, 14, 9);
+text-transform: 0.5s;
+text-decoration-line: underline;
+    
+
+}
+
+.heading{
+color: thistle;
+padding: 300px;
+text-align: center;
+font-size: 30px;
+}
+.parttwo{ 
+    background-color: gray;
+    display: flex;
+    padding: 50px 50px 50px 50px;
+    font-size: 20px;
+    
+
+}
+.parttwo .image1{
+    margin: 30px;
+    box-sizing: border-box;
+    
+
+    
+}
+.parttwo .slice{
+    color: blanchedalmond;
+}
+
