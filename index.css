@@ -3,11 +3,12 @@
     margin: 0px;
 }
 .partone{
-    background-image: url("/Assetes/technology-798619_1920.jpg");
+    background-image: url("Assetes/xps-Gi3iUJ1FwxI-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     height: 800px;
+    width: 100%;
     position: relative;
     
     
@@ -54,10 +55,35 @@ text-transform: 0.5s;
 text-decoration-line: underline;
     
 
+}input{
+    float: left;
+    margin-bottom: 20px;
 }
 
-.heading{
-color: thistle;
+.rows input {
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    width: 300px;
+}
+
+.subcribe-button {
+    padding: 18px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+}
+
+
+.rows input::placeholder {
+    font-size: 20px;
+
+}
+.heading{ 
+color: rgb(178, 209, 206);
 padding: 300px;
 text-align: center;
 font-size: 30px;
@@ -66,18 +92,45 @@ font-size: 30px;
     background-color: gray;
     display: flex;
     padding: 50px 50px 50px 50px;
-    font-size: 20px;
+    font-size: 22px;
     
 
 }
-.parttwo .image1{
-    margin: 30px;
-    box-sizing: border-box;
+.About{
+    color: rgb(57, 21, 90);
+}
+.parttwo img{
+    padding-right: 20px;
+    border-radius: 150px 20px 100px 10px;
     
 
     
 }
 .parttwo .slice{
-    color: blanchedalmond;
+    color: rgb(7, 41, 54);
+    text-align: start;
+}
+.partthree{
+    background-image: url("/Assetes/xps-bXfQLglc81U-unsplash.jpg");
+    
+}
+.partthree .text h1{
+    text-align: center;
+    text-shadow:  7px 7px 7px  blue;
+    font-size: 50px;
+    
+}
+.partthree img{
+    border-radius: 20px;
+    align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.profile1{
+
+
 }
 
