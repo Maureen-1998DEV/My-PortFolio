@@ -92,56 +92,84 @@ font-size: 30px;
     background-color: gray;
     display: flex;
     padding: 20px 20px 20px 20px;
-    font-size: 22px;
+    font-size: 20px;
 }
 .About-me{
     color: rgb(57, 21, 90);
 }
-.parttwo img{
+.parttwo {
     padding-right: 20px;
-    border-radius: 50px 20px 100px 10px;
-
-    
-
-    
+    border-radius: 100px 100px 100px 100px;  
+} .parttwo img{
+    padding-right: 20px;
+    border-radius: 100px 100px 100px 100px; 
 }
 .parttwo .slide{
     color: rgb(7, 41, 54);
     text-align: start;
 }
 .partthree{
-    background-image: url();
+     background-image: url("/Assetes/xps-YNliXm_hMn8-unsplash.jpg");  
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     height: 800px;
     width: 100%;
-    position: relative;
+    background-position: bottom;
+    border-radius: 20px 20px 20px 20px;
 }
-.partthree{
-    height: 800px;
+.partthree  img{
+    border-radius: 50px 50px 50px ;
+}
+.partthree, .profile,.home, .text, .image3{
+    
     background-color: rgba(0, 35, 82, 0.7);
-    z-index:999
+    z-index: 999
+
+
+}  
+.home{
+    display: flex;
+    justify-content: space-around;
 }
+.profile{
+    color: lightyellow;
+    font-size: 40px;
+    
+}
+.contacts{
+    color: lightyellow;
+    font-size: 30px;
+}
+ .partthree .home.image3{
+    border-radius: 20px;
+}
+
+
 .partthree .text h1{
     text-align: center;
-    text-shadow:  7px 7px 7px  blue;
+    text-shadow:  2px 2px 2px  blue;
     font-size: 50px;
     
 }
-.partthree img{
+.partthree .image3{
     border-radius: 20px;
     align-items: center;
+
 }
-.content{
+.profile{
     display: flex;
     justify-content: space-around;
     font-size: 20px;
 }
-.profile1{
-
-
+.form-group{
+display: flex;
+flex-direction: column;
+margin: 20px 20px 20px 20px;
+width: 250px;
+margin-left: 500px;
 }
+
 
 /* Beginning of Contact form */
  .container{
@@ -157,6 +185,10 @@ font-size: 30px;
     z-index:999
 
 
+ }
+ .form-group img{
+     border-radius: 100px;
+     width: 250px;
  }
  .footer{
      background-color: black;
