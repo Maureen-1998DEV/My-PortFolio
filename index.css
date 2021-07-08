@@ -3,17 +3,17 @@
     margin: 0px;
 }
 .partone{
-    background-image: url("Assetes/xps-Gi3iUJ1FwxI-unsplash.jpg");
+    background-image: url("Assetes/ruijia-wang-h9gXt0JmVn0-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     height: 800px;
     width: 100%;
-    position: relative;
+    background-position: bottom;
     
     
 }
-.partone .navbar .heading{
+.partone .nav-list .headings{
   height: 800px;
   background-color: rgba(0, 35, 82, 0.7);
   z-index:999
@@ -22,51 +22,51 @@
 
 
 
-.navbar{
+.nav-list{
     height: 80px;
     width: 100%;
     background-color: transparent;
     
 }
-.navbar ul {
+.nav-list ul {
     float: right;
     margin-right: 30px;
 
 }
 
-.navbar ul li {
+.nav-list ul li {
     list-style: none;
     margin: 0 10px;
     display: inline-block;
     line-height: 80px;
 }
 
-.navbar ul li a {
+.nav-list ul li a {
     text-decoration: none;
     color: wheat;
     font-size: 30px;
     padding: 6px 13px;
 }
 
-.partone .navbar ul li a.active,
-.partone .navbar ul li a:hover{
+.partone .nav-list ul li a.active,
+.partone .nav-list ul li a:hover{
 color: rgb(53, 14, 9);
 text-transform: 0.5s;
 text-decoration-line: underline;
     
 
-}input{
+}
+ input{
     float: left;
     margin-bottom: 20px;
 }
 
-.rows input {
+.rows input { 
     padding: 20px;
     border-radius: 20px;
     border: none;
     width: 300px;
-}
-
+ }
 .subcribe-button {
     padding: 18px;
     border-radius: 20px;
@@ -82,7 +82,7 @@ text-decoration-line: underline;
     font-size: 20px;
 
 }
-.heading{ 
+.headings{ 
 color: rgb(178, 209, 206);
 padding: 300px;
 text-align: center;
@@ -93,10 +93,13 @@ font-size: 30px;
     display: flex;
     padding: 50px 50px 50px 50px;
     font-size: 22px;
+    width: 900px;
+    height: 450px;
+
     
 
 }
-.About{
+.About -me{
     color: rgb(57, 21, 90);
 }
 .parttwo img{
@@ -111,8 +114,18 @@ font-size: 30px;
     text-align: start;
 }
 .partthree{
-    background-image: url("/Assetes/xps-bXfQLglc81U-unsplash.jpg");
-    
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+.partthree{
+    height: 800px;
+    background-color: rgba(0, 35, 82, 0.7);
+    z-index:999
 }
 .partthree .text h1{
     text-align: center;
@@ -134,3 +147,7 @@ font-size: 30px;
 
 }
 
+/* Beginning of Contact form */
+ .form-group .container{
+     
+ }
