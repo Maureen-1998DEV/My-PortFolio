@@ -102,7 +102,7 @@ font-size: 30px;
     border-radius: 100px 100px 100px 100px;  
 } .parttwo img{
     padding-right: 20px;
-    border-radius: 100px 100px 100px 100px; 
+    border-radius: 75px 75px 75px 75px; 
 }
 .parttwo .slide{
     color: rgb(7, 41, 54);
@@ -120,14 +120,19 @@ font-size: 30px;
 }
 .partthree  img{
     border-radius: 50px 50px 50px ;
-}
-.partthree, .profile,.home, .text, .image3{
+    height: 350px;
     
+
+}
+.partthree, .profile,.home, .text{
     background-color: rgba(0, 35, 82, 0.7);
     z-index: 999
 
 
-}  
+} 
+.text{
+    font-size: 20px !important;
+} 
 .home{
     display: flex;
     justify-content: space-around;
@@ -169,10 +174,13 @@ margin: 20px 20px 20px 20px;
 width: 250px;
 margin-left: 500px;
 }
+ .container-fluid .row.col-sm-4 .left .img-thumbnail{
+    height: 300px !important;
+}
 
 
 /* Beginning of Contact form */
- .container{
+  .container{
      background-image: url("/Assetes/xps-YNliXm_hMn8-unsplash.jpg");
      background-repeat: no-repeat;
      height: 500px;
@@ -188,9 +196,13 @@ margin-left: 500px;
  }
  .form-group img{
      border-radius: 100px;
-     width: 250px;
+
  }
  .footer{
-     background-color: black;
+     background-color: rgb(3, 3, 46);
+     display: flex;
+     justify-content: space-around;
+     color: whitesmoke;
+ 
     
  }
