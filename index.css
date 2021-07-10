@@ -167,37 +167,35 @@ font-size: 30px;
     justify-content: space-around;
     font-size: 20px;
 }
-.form-group{
+/* .form-group{
 display: flex;
 flex-direction: column;
 margin: 20px 20px 20px 20px;
 width: 250px;
 margin-left: 500px;
-}
+} */
  .container-fluid .row.col-sm-4 .left .img-thumbnail{
     height: 300px !important;
 }
 
 
 /* Beginning of Contact form */
-  .container{
+  /* .container{
      background-image: url("/Assetes/xps-YNliXm_hMn8-unsplash.jpg");
      background-repeat: no-repeat;
      height: 500px;
      background-size: cover;
-     background-position: center;
- }
- .container .form-group {
+     background-position: center; */
+
+ /* .containe{
      height: 500px;
      background-color: rgba(0, 35, 82, 0.7);
-    z-index:999
+     */
 
 
- }
- .form-group img{
-     border-radius: 100px;
+ 
 
- }
+
  .footer{
      background-color: rgb(3, 3, 46);
      display: flex;
