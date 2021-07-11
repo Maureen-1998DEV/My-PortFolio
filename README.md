@@ -9,9 +9,9 @@
 * Web Browser
 * GitHub
 # Technology Used:
-* HTML
-* Css
-* Boostrap
+* HTML.
+* Css.
+* Boostrap.
 # Bugs
 ## No unknown bugs for now.
 # Livelink
